@@ -2,7 +2,7 @@
 
 ## TODO and notes
 
-Методы: decision tree, random forest, gradient boosting
+Perform an exploratory analysis of the data via visualization with Seaborn.
 
 Подобрать продукт у которого высокая корреляция с фичами
 
