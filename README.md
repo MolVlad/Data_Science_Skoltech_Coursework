@@ -2,4 +2,4 @@
 
 Time series forecasting using tree-based methods
 
-Create slides: 'jupyter nbconvert Trees_Vlad.ipynb --to slides'
+Create slides: `jupyter nbconvert Trees_Vlad.ipynb --to slides`
