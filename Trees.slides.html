@@ -13246,27 +13246,13 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Problem-formulation">Problem formulation<a class="anchor-link" href="#Problem-formulation">&#182;</a></h1>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Sales-prediction--for-the-next-28-days----Time-Series-Forecasting">Sales prediction  for the next 28 days  - <em>Time Series Forecasting</em><a class="anchor-link" href="#Sales-prediction--for-the-next-28-days----Time-Series-Forecasting">&#182;</a></h3>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Load-the-data">Load the data<a class="anchor-link" href="#Load-the-data">&#182;</a></h1>
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sales_train_validation</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;sales_train_validation.csv&#39;</span><span class="p">)</span>
@@ -13279,7 +13265,7 @@ a.anchor-link {
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sales_train_validation</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">12</span><span class="p">,:</span><span class="mi">12</span><span class="p">]</span>
@@ -13295,7 +13281,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13526,7 +13512,7 @@ a.anchor-link {
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">calendar</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;calendar.csv&#39;</span><span class="p">)</span>
@@ -13745,10 +13731,24 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Problem-formulation">Problem formulation<a class="anchor-link" href="#Problem-formulation">&#182;</a></h1>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Prediction-of-sales-by-category-for-the-next-28-days----Time-Series-Forecasting">Prediction of sales by category for the next 28 days  - <em>Time Series Forecasting</em><a class="anchor-link" href="#Prediction-of-sales-by-category-for-the-next-28-days----Time-Series-Forecasting">&#182;</a></h3>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Data-exploration-and-preparation">Data exploration and preparation<a class="anchor-link" href="#Data-exploration-and-preparation">&#182;</a></h1>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[246]:</div>
@@ -13783,7 +13783,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[249]:</div>
@@ -14157,7 +14157,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">events_features</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14173,7 +14173,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -14213,7 +14213,7 @@ a.anchor-link {
   </thead>
   <tbody>
     <tr>
-      <th>2011-01-29</th>
+      <th>2011-02-18</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14221,7 +14221,7 @@ a.anchor-link {
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-01-30</th>
+      <th>2011-02-19</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14229,7 +14229,7 @@ a.anchor-link {
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-01-31</th>
+      <th>2011-02-20</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14237,15 +14237,15 @@ a.anchor-link {
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-02-01</th>
+      <th>2011-02-21</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>1.0</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-02-02</th>
+      <th>2011-02-22</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14265,7 +14265,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tomorrow_features</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14281,7 +14281,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14321,7 +14321,7 @@ a.anchor-link {
   </thead>
   <tbody>
     <tr>
-      <th>2011-01-29</th>
+      <th>2011-02-18</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14329,7 +14329,7 @@ a.anchor-link {
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-01-30</th>
+      <th>2011-02-19</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14337,7 +14337,15 @@ a.anchor-link {
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-01-31</th>
+      <th>2011-02-20</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>2011-02-21</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14345,15 +14353,7 @@ a.anchor-link {
       <td>0.0</td>
     </tr>
     <tr>
-      <th>2011-02-01</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>2011-02-02</th>
+      <th>2011-02-22</th>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
